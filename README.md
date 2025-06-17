@@ -4,34 +4,107 @@ heartintern
 
 HeartInternet Pentesting Framework v7.7.7
 Coded by @rootkitov | NSA Backdoor Edition
-, The purpose of the utility
-HeartInternet is a powerful framework for penetration testing (Pentesting), vulnerability analysis, and cybersecurity. It is designed for:
+🔹 Purpose of the utility
+HeartInternet is a powerful framework for penetration testing (Pentesting), vulnerability analysis and cybersecurity. It is designed for:
 
 Ethical hacking (legal security testing)
 
 Auditing web applications and networks
 
-Vulnerability detection (XSS, SQLi, SSRF, RCE, etc.)
+Detecting vulnerabilities (XSS, SQLi, SSRF, RCE, etc.)
 
-Conducting DoS/DDoS tests (for educational purposes)
+Conducting DoS/DDoS tests (for training purposes)
 
-Intelligence Gathering (OSINT)
+Collecting intelligence (OSINT)
 
-Metadata analysis (images, documents, web pages)
+Analyzing metadata (images, documents, web pages)
 
-⚠ ATTENTION: It is illegal to use this tool without the permission of the system owner. It is intended only for legal testing and training.
+⚠ ATTENTION: Using this tool without the permission of the system owner is illegal. Intended for legal testing and training only.
 
-, Basic functionality
-1. Network Scanning (Stealth Mode)
-Nmap integration for hidden port scanning
+🔹 Main functionality
+1. Network scanning (Stealth Mode)
+Nmap integration for stealth port scanning
 
-Discovery of open ports and services
+Detection of open ports and services
 
-Determining the OS and software versions
+Detection of OS and software versions
 
-2. XSS Web Vulnerability Scanner (Deep Scan)
-(cross-site scripting)
+2. Web vulnerability scanner (Deep Scan)
+XSS (cross-site scripting)
 
-SQL Injection (SQLi)
+SQL injections (SQLi)
 
-SSRF (forgery of ce requests
+SSRF (server request forgery)
+
+LFI/RFI (local/remote file inclusion)
+
+RCE (remote code execution)
+
+3. Malicious code injection
+Automatic payload injection (XSS, SQLi, LFI, RCE, Phishing)
+
+Testing forms for vulnerabilities
+
+Bypassing some WAF/filters
+
+4. DoS/DDoS module (for testing)
+SYN Flood (overloading TCP connections)
+
+HTTP Flood (attack via proxy)
+
+Slowloris (maintaining multiple connections)
+
+DNS Amplification (DRDoS via DNS servers)
+
+GoldenEye (Layer7 attack)
+
+5. Metadata collection
+Extract EXIF ​​from images (GPS, camera, shooting date)
+
+PDF/DOC/XLS analysis (hidden data, macros)
+
+WHOIS and DNS reconnaissance (domain owners, MX records)
+
+Website parsing (search for forms, scripts, links)
+
+6. Additional features
+Tor integration for anonymity
+
+Proxy support (HTTP/SOCKS)
+
+Blockchain analysis (in development)
+
+AI vulnerability scanning (experimental)
+
+🔹 Usage examples
+1. Web vulnerability scanning
+python
+1. Select "2. Web Vulnerability Scanner"
+2. Enter the website URL (e.g. http://example.com)
+3. Get a report about vulnerabilities (XSS, SQLi, etc.)
+
+2. XSS injection
+python
+1. Select "8. Code Injection"
+2. Enter URL and payload type (XSS/SQLi/RCE)
+3. Check if the exploit worked
+3. DoS testing (SYN Flood)
+python
+1. Select "5. DOS/DDOS Module" → "1. SYN Flood"
+2. Enter target IP and port
+3. Launch attack (for legal testing only!)
+
+4. PDF metadata analysis
+python
+1. Select "9. Document Analyzer"
+2. Specify file path (e.g. report.pdf)
+3. Get data: author, creation date, hidden text
+🔹 Important warnings
+❌ Do not use for illegal activities!
+🔒 Always use VPN/Tor/proxy for anonymity
+📜 Use only with permission from the system owner
+
+🚀 Conclusion
+HeartInternet is a versatile pentesting tool that combines automated scanning and manual testing methods. It is suitable for both novice cybersecurity professionals and experienced ethical hackers.
+
+⚠ Responsibility for use is yours!
