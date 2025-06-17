@@ -105,6 +105,11 @@ python
 📜 Use only with permission from the system owner
 
 🚀 Conclusion
-HeartInternet is a versatile pentesting tool that combines automated scanning and manual testing methods. It is suitable for both novice cybersecurity professionals and experienced ethical hackers.
+HeartInternet is a versatile pentesting tool that combines automated scanning and manual testing methods. It is suitable for both novice cybersecurity professionals and experienced ethical hackers.![photo_6235674567238601481_y](https://github.com/user-attachments/assets/7c68acd6-1eb2-4df8-80fc-200e56d56922)
+
 
 ⚠ Responsibility for use is yours!
+
+
+
+
